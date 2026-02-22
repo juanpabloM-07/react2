@@ -1,18 +1,35 @@
-# React + Vite
+# 🛒 Carrito de Compras - React & Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descripción
+Este proyecto consiste en la maquetación profesional de una aplicación de *Carrito de Compras* desarrollada con *React*. La aplicación permite la navegación entre diferentes secciones (Inicio, Artículos y Props) mediante una interfaz dinámica y moderna, simulando un entorno real de comercio electrónico con gestión de productos.
 
-Currently, two official plugins are available:
+## ✨ Características Principales
+* *Navegación SPA:* Implementación de rutas dinámicas con react-router-dom para una navegación sin recarga de página.
+* *Diseño Responsivo:* Interfaz construida íntegramente con *Bootstrap 5*, garantizando adaptabilidad en diferentes tamaños de pantalla.
+* *Arquitectura Modular:* Organización del código basada en componentes independientes y reutilizables.
+* *Gestión de Layout:* Estructura global consistente con Header, Content y Footer definidos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Interfaz Gráfica
+A continuación, se muestra una captura del estado actual de la interfaz:
 
-## React Compiler
+![Vista Previa del Proyecto](./public/img/vite.svg) 
+(Nota: Aquí puedes insertar una captura de pantalla de tu navegador para que se vea tu trabajo final)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🏗️ Arquitectura del Proyecto
+El proyecto sigue una estructura organizada por funcionalidades dentro de la carpeta src:
 
-Note: This will impact Vite dev & build performances.
+* *public/img/*: Almacena los activos visuales (imágenes de productos como audífonos, cámaras, etc.).
+* *src/features/layout/components/*: Contiene los componentes estructurales del sitio:
+    * Header.jsx: Barra de navegación y buscador.
+    * Content.jsx: Vista principal con el formulario y lista de productos.
+    * Footer.jsx: Pie de página con enlaces de ayuda y políticas.
+    * Article.jsx y Props.jsx: Vistas secundarias de la aplicación.
+* *src/shared/styles/*: Ubicación de los archivos de estilos personalizados (App.css e index.css).
+* *App.jsx*: Componente raíz donde se configuran las rutas y el layout principal.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 Datos del Autor
+* *Nombre Completo:* Juan Pablo Serna
+* *Proyecto:* Taller de Maquetación con React
+* *Herramientas:* React, Vite, Bootstrap, React Router
+* *Fecha:* Febrero 2026
+* 
